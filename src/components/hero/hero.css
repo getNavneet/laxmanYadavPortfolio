@@ -1,0 +1,114 @@
+/* Default slide styles */
+.slide {
+    position: relative;
+  }
+  
+  /* Default image styles for mobile */
+  .slide img {
+    width: 100%;
+    height: auto; /* Adjust for mobile */
+    object-fit: cover;
+  }
+  
+  /* Overlay content */
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Media query for desktop */
+  @media (min-width: 768px) {
+    .slide img {
+      height: 300px; /* Adjust height for desktop */
+    }
+  }
+  
+  /* Custom styles for slick dots (pagination) */
+  .slick-dots {
+    bottom: 7px; /* Position dots inside the carousel */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px; /* Adjust size of the dots */
+    color: rgba(0, 0, 0, 0.828);    /* Change color of inactive dots */
+    opacity: 0.5;    /* Make the dots semi-transparent */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #007BFF;  /* Change color of the active dot */
+    opacity: 1;      /* Make active dot fully opaque */
+  }
+  
+  /* Optional: Adjust spacing between dots */
+  .slick-dots li {
+    margin: 0 2px;
+  }
+  
+  /* Custom Previous/Next Arrow Styles */
+  
+  /* Position the Previous button to the left of the slide */
+  .slick-prev {
+    left: 15px; /* Position the arrow 10px from the left */
+    z-index: 1; /* Ensure the arrow appears above other content */
+    width: 80px; /* Set the size of the arrow button */
+    height: 80px;
+    /* background-color: rgba(0, 0, 0, 0.5); Add background color */
+    color: white; /* Arrow color */
+    border-radius: 90%; /* Make the arrow circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Position the Next button to the right of the slide */
+  .slick-next {
+    right: 15px; /* Position the arrow 10px from the right */
+    z-index: 1; /* Ensure the arrow appears above other content */
+    width: 80px; /* Set the size of the arrow button */
+    height: 80px;
+    /* background-color: rgba(0, 0, 0, 0.5); Add background color */
+    color: white; /* Arrow color */
+    /* border-radius: 90%; Make the arrow circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Customize the arrow icon */
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px; /* Increase the size of the arrow icon */
+    color: rgb(0, 150, 180);    /* Set the color of the arrow icon */
+    opacity: 1;      /* Ensure full opacity */
+  }
+  
+  /* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .slide img {
+      /* height: 180px; Adjust height for mobile */
+      height: 180px;
+    }
+  
+    .overlay {
+      padding: 15px; /* Adjust padding for mobile */
+      font-size: 14px; /* Adjust text size for mobile */
+    }
+  
+    .slick-dots {
+      bottom: 8px; /* Adjust dots position for mobile */
+    }
+   
+   
+  
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 0px; /* Adjust arrow icon size for mobile */
+    }
+  }

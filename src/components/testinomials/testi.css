@@ -1,0 +1,22 @@
+.testimonial-card {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .testimonial-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .testimonial-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
