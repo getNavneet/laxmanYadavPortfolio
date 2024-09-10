@@ -23,14 +23,14 @@ const HeroCarousel = () => {
   return (
     <Slider {...settings}>
       <div className="slide">
-        <img src={intro1} alt="Slide 1" />
+        <img loading="lazy" src={intro1} alt="Slide 1" />
       </div>
 
       <div className="slide">
-        <img src={quote} alt="Slide 1" />
+        <img loading="lazy" src={quote} alt="Slide 1" />
       </div>
       <div className="slide">
-        <img src={book} alt="Slide 2" />
+        <img loading="lazy" src={book} alt="Slide 2" />
         <div className="absolute bottom-4 right-8 lg:bottom-8 lg:left-40">
           <button className="bg-slate-500 text-white shadow-2xl rounded-lg p-2">
            <a href="https://amzn.in/d/fdMKGeM"
@@ -42,7 +42,7 @@ const HeroCarousel = () => {
         </div>
       </div>
       <div className="slide">
-        <img src={thanks} alt="Slide 2" />
+        <img loading="lazy" src={thanks} alt="Slide 2" />
       </div>
       {/* Add more slides as needed */}
     </Slider>

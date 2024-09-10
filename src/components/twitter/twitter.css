@@ -1,0 +1,11 @@
+.twitter-container {
+    width: 100%;
+    max-width: 600px; /* Set a max width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .twitter-widget iframe {
+    width: 80% !important; /* Make sure the iframe takes the full width */
+    height: auto !important; /* Set the height to auto to maintain aspect ratio */
+  }
+  
