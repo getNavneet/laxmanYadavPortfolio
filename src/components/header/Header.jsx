@@ -108,7 +108,7 @@ function Header() {
       </nav>
       {isOpen && (
         <div
-          className={`fixed top-14  right-4 z-30 w-1/2 float-right shadow-lg ${
+          className={`fixed top-14  right-4 z-30  float-right shadow-lg ${
             isOpen ? "menu-enter" : "menu-exit"
           }`}
         >
@@ -116,7 +116,7 @@ function Header() {
             <li className="bg-cyan-200 border-cyan-600 border-4">
               <NavLink
                 to="/"
-                className="hover:text-red-600"
+                className="hover:text-red-600 px-20"
                 activeClassName="text-blue-600"
                 onClick={toggleMenu}
                 exact
@@ -127,7 +127,7 @@ function Header() {
             <li className="bg-cyan-200 border-cyan-600 border-4">
               <NavLink
                 to="/about"
-                className="hover:text-red-600"
+                className="hover:text-red-600 px-20"
                 activeClassName="text-blue-600"
                 onClick={toggleMenu}
               >
@@ -137,7 +137,7 @@ function Header() {
             <li className="bg-cyan-200 border-cyan-600 border-4">
             <NavLink
                 to="/latest"
-                className="hover:text-red-600"
+                className="hover:text-red-600 px-20"
                 activeClassName="text-blue-600"
                 onClick={toggleMenu}
               >
@@ -147,7 +147,7 @@ function Header() {
             <li className="bg-cyan-200 border-cyan-600 border-4">
             <NavLink
                 to="/contact"
-                className="hover:text-red-600"
+                className="hover:text-red-600 px-20"
                 activeClassName="text-blue-600"
                 onClick={toggleMenu}
               >
