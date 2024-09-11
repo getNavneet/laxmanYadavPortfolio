@@ -22,7 +22,7 @@ const MiniBio = () => {
             Influenced by the ideology of Social Justice. A dreamer of a world
             of love based on equality and justice.
           </p>
-          <p onClick={goToAbout} className="text-blue-600 hover:underline">
+          <p onClick={goToAbout} className="text-blue-600 hover:underline cursor-pointer">
             Explore More About Laxman Yadav
           </p>
           <div/>

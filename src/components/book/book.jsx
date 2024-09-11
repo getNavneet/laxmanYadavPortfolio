@@ -22,7 +22,7 @@ const BookInfo = ({ book }) => {
     <img 
       src={book.coverImage} 
       alt={`${book.title} cover`} 
-      className="w-64 h-80 object-cover rounded-md" 
+      className="w-64 h-80 object-cover rounded-md shadow-2xl" 
     />
   </div>
   <p className="hidden md:block text-lg text-gray-700">
@@ -51,7 +51,7 @@ const BookInfo = ({ book }) => {
     href={book.purchaseLink} 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="mt-6 mr-4 inline-block bg-blue-600 text-white px-4 py-2 rounded-md"
+    className="mt-6 mr-4 inline-block bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded-md cursor-pointer"
   >
     Buy Now
   </a>
@@ -59,7 +59,7 @@ const BookInfo = ({ book }) => {
     onClick={goToReviews}
     target="_blank" 
     rel="noopener noreferrer" 
-    className="mt-6 inline-block bg-blue-600 text-white px-4 py-2 rounded-md"
+    className="mt-6 inline-block bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded-md cursor-pointer"
   >
     View Reviews
   </a>

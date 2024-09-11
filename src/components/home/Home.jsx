@@ -77,14 +77,14 @@ r10,r11,r12,r13,r14,r15
       <Headlines />
       <SongSection/>
       <div className="m-4 max-w-5xl mx-auto">
-      <div className="w-full mx-auto bg-gray-100 p-4  rounded-lg shadow-inner ">
+      <div className="w-full mx-auto bg-gray-100 p-4  rounded-lg shadow-inner  ">
             <h2 className="text-lg font-semibold">Table of Contents</h2>
             <nav className="mt-2">
               <ul className="list-disc list-inside space-y-2">
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Who is Dr. Laxman Yadav?
                   </a>
@@ -92,7 +92,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Dr. Laxman Yadav Short Biography (Short Details)
                   </a>
@@ -100,7 +100,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Dr. Laxman Yadav Social Account
                   </a>
@@ -108,7 +108,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Dr. Laxman Yadav Biography
                   </a>
@@ -116,7 +116,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Dr. Laxman Yadav Education
                   </a>
@@ -124,7 +124,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Some Interesting Facts About Dr. Laxman Yadav
                   </a>
@@ -132,7 +132,7 @@ r10,r11,r12,r13,r14,r15
                 <li>
                   <a
                     onClick={goToAbout}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     FAQ
                   </a>

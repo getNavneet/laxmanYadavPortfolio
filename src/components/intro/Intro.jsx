@@ -51,38 +51,38 @@ const LaxmanYadavBiography = () => {
                 <li>
                   <a
                     onClick={() => scrollToSection(whoIs)}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline cursor-pointer"
                   >
                     Who is Dr. Laxman Yadav?
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(shortBio)}>
-                  <a className="text-blue-600 hover:underline">
+                  <a className="text-blue-600 hover:underline cursor-pointer">
                     Dr. Laxman Yadav Short Biography (Short Details)
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(socialAcc)}>
-                  <a className="text-blue-600 hover:underline">
+                  <a className="text-blue-600 hover:underline cursor-pointer">
                     Dr. Laxman Yadav Social Account
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(bio)}>
-                  <a className="text-blue-600 hover:underline">
+                  <a className="text-blue-600 hover:underline cursor-pointer">
                     Dr. Laxman Yadav Biography
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(bio)}>
-                  <a className="text-blue-600 hover:underline">
+                  <a className="text-blue-600 hover:underline cursor-pointer">
                     Dr. Laxman Yadav Education
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(bio)}>
-                  <a className="text-blue-600 hover:underline">
+                  <a className="text-blue-600 hover:underline cursor-pointer">
                     Some Interesting Facts About Dr. Laxman Yadav
                   </a>
                 </li>
                 <li onClick={() => scrollToSection(bio)}>
-                  <a className="text-blue-600 hover:underline">FAQ</a>
+                  <a className="text-blue-600 hover:underline cursor-pointer">FAQ</a>
                 </li>
               </ul>
             </nav>
