@@ -58,24 +58,27 @@ r10,r11,r12,r13,r14,r15
   };
   return (
     <>
-      <HeroCarousel />
+      <HeroCarousel/>
       <YouTubeVideoComponent/>
       {/* <TwitterFeed /> */}
-      <MiniBio />
+      <MiniBio/>
       <div className="flex justify-center flex-col">
       <BookInfo book={book2} />
+      <TestimonialCarousel/>
+      <Headlines/>
       <div className='m-3 border-2 border-white'>
         <h2 className='text-2xl p-6 text-center'>Dr. Laxman is Actively present on major social media </h2>
         <div className='p-4'>
         <SocialLinks/>
         </div>
       </div>
+            <SongSection/>
+
       <BookGallery images={images2} title={`Highlighting texts from "प्रोफेसर की डेयरी"`}/>
+
       <BookInfo book={book} />
     </div>
-      <TestimonialCarousel />
-      <Headlines />
-      <SongSection/>
+      
       <div className="m-4 max-w-5xl mx-auto">
       <div className="w-full mx-auto bg-gray-100 p-4  rounded-lg shadow-inner  ">
             <h2 className="text-lg font-semibold">Table of Contents</h2>
