@@ -15,7 +15,7 @@ function ContactForm() {
       });
   };
   return (
-    <form ref={form}  className="bg-white shadow-lg rounded-lg p-8">
+    <form ref={form}  className="bg-white shadow-lg rounded-lg p-8 text-black ">
     <div className="mb-4">
       <label className="block text-gray-700 text-sm font-bold mb-2">Name</label>
       <input type="text" name="user_name" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400" />
